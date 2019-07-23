@@ -11,7 +11,7 @@ BUILDTYPES=( Debug Release)
 
 cd ${SOURCE}
 ### in SOURCE genvector libarry source should be cloned.
-###git clone git@git.hpc.vniia.net:70-sdi/genvector.git
+git clone https://github.com/AndStorm/genvector.git
 
     export CC=pgcc
     export CXX=pgc++
@@ -33,4 +33,5 @@ cd ${SOURCE}
     GENVECTOR_LIBRARY="${INSTALLDIR}/lib/libgenvector.a"
   done
   
+
 
